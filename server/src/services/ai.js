@@ -22,7 +22,7 @@ function getOpenRouter() {
 }
 
 function openRouterModelName() {
-  return process.env.OPENROUTER_MODEL || 'google/gemini-2.0-flash-001';
+  return process.env.OPENROUTER_MODEL || 'openai/gpt-4o-mini';
 }
 
 async function generateCompletion(prompt, temperature) {
